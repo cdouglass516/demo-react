@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -23,11 +23,15 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.claimAgent--warning{
+  background-color: red;
+}
 .App-link {
   color: #61dafb;
 }
-
+span{
+  padding-left: 10px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +39,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+.mortgageClaims--claimTbl{
+  overflow-x:auto;
+  width: 65%;
+  padding-left: 25px;
+}
+.user{
+  display: flex;
+  width: 40%;
+  padding: 10px;
+  background-color: darkkhaki;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
 }
